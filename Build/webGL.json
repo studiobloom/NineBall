@@ -1,0 +1,17 @@
+{
+"companyName": "com.studiobloom.NineBallPool",
+"productName": "NineBallPool",
+"productVersion": "1.01",
+"dataUrl": "webGL.data.unityweb",
+"asmCodeUrl": "webGL.asm.code.unityweb",
+"asmMemoryUrl": "webGL.asm.memory.unityweb",
+"asmFrameworkUrl": "webGL.asm.framework.unityweb",
+"TOTAL_MEMORY": 134217728,
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.4.26f1"
+}
