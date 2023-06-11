@@ -8,21 +8,26 @@
     <script>
       UnityLoader.instantiate("unityContainer", "Build/webGL.json");
     </script>
-  </head>
-  <body>
     <style>
       html, body {
-        height: 100VH;
+        height: 100vh;
         margin: 0;
         padding: 0;
         overflow: hidden;
-      }
-      body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
         background-color: #333;
       }
-      </style>
-    <center>
-    <div id="unityContainer" style="width: 1200px; height: 675px; margin: auto; max-height: 100vh;"></div>
-    </center>
+      #unityContainer {
+        width: 1200px;
+        height: 675px;
+        max-width: 100%;
+        max-height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="unityContainer"></div>
   </body>
 </html>
